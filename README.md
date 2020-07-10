@@ -1,4 +1,4 @@
-<img src="weatherapp.png" width=700 align="middle" >
+<img src="Expense-Tracker.png" width=700 align="middle" >
 
 # Expense Tracker App
 
