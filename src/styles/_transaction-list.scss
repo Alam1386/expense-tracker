@@ -1,0 +1,64 @@
+.transaction-list {
+  padding: 20px;
+  .title {
+    margin: 20px 0px;
+    border-bottom: 5px solid $green;
+    color: $grey;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .plus {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 10px;
+      margin: 15px;
+      width: 95%;
+      border: solid 1px $white;
+      border-right: solid 5px $green;
+      border-radius: 5px;
+      .amount {
+        color: $grey;
+      }
+    }
+    .minus {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 10px;
+      margin: 15px;
+      width: 95%;
+      border: solid 1px $white;
+      border-right: solid 5px $red;
+      border-radius: 5px;
+      .amount {
+        color: $red;
+      }
+    }
+    .delete-btn {
+      cursor: pointer;
+      background-color: $red;
+      border: 0;
+      color: #fff;
+      font-size: 20px;
+      line-height: 20px;
+      padding: 2px 5px;
+      position: absolute;
+      left: 29%;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .expense-amount {
+      color: $red;
+      padding: 20px;
+    }
+  }
+  .wrapper li:hover .delete-btn {
+    opacity: 1;
+  }
+}

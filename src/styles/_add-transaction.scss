@@ -1,0 +1,40 @@
+.add-transaction {
+  padding: 20px;
+  .title {
+    margin: 20px 0px;
+    border-bottom: 5px solid $green;
+    color: $grey;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+    width: 100%;
+  }
+  .input {
+    border: solid 1px $green;
+    border-radius: 5px;
+    padding: 15px;
+    width: 50%;
+  }
+  .button {
+    border: solid 1px $green;
+    border-radius: 5px;
+    background-color: $green;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 20px;
+    width: 50%;
+  }
+}
